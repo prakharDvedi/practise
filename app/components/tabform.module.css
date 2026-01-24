@@ -1,0 +1,38 @@
+/* TabForm wrapper */
+.tabform {
+  padding: 20px;
+  background-color: #b17f7f;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Tabs container */
+.tabs {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+/* Each tab box */
+.tabs > div {
+  flex: 1;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #783e3e;
+}
+
+.pageButton {
+  background-color: #1c389d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1px;
+  align-items: center;
+}
