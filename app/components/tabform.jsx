@@ -10,7 +10,7 @@ export default function TabForm() {
     { name: "Info", component: Info },
     { name: "Hobbie", component: Hobbie },
     { name: "Settings", component: Settings },
-  ];
+  ];``
 
   const [tab, setTab] = useState(0);
   const activePage = pages[0].component;
