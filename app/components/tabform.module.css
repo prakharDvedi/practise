@@ -4,7 +4,7 @@
   background-color: #b17f7f;
   border: 1px solid #ddd;
   border-radius: 8px;
-
+  align-items: center;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -35,4 +35,11 @@
   cursor: pointer;
   font-size: 1px;
   align-items: center;
+}
+
+.content {
+  padding: 20px;
+  border: 1px solid #464d13;
+  border-radius: 6px;
+  background-color: #607f28;
 }
