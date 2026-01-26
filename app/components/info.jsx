@@ -1,4 +1,4 @@
-export default function Info({ data, setData }) {
+export default function Info({ data, setData, err }) {
   const { name, age, email } = data;
 
   const handleChange = (e, item) => {
@@ -19,6 +19,7 @@ export default function Info({ data, setData }) {
           value={name}
           onChange={(e) => handleChange(e, "name")}
         />
+        {err.name && <span className="error">{err.name}</span>}
         {/* //always let parent store data, not child */}
       </div>
       <div>
